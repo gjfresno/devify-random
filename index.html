@@ -1,18 +1,36 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selector random de Codas</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Diagrama de Flujo</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+    <style>
+    #network {
+        width: 100%;
+        height: 80vh; /* Esto establece la altura al 100% del viewport (tamaño de la ventana del navegador) */
+        border: 1px solid lightgray;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Selector random de Codas</h1>
-        <button id="selectButton">Seleccionar Coda</button>
-        <p id="selectedPerson"></p>
-    </div>
 
-    <script src="script.js"></script>
+
+
+<div class="container">
+    <h2>Codas: Selector random</h2>
+    <button id="selectButton">Seleccionar Coda random</button>
+    <p id="selectedPerson"></p>
+</div>
+
+<script src="script.js"></script>
+
+<h2>Codas: Expertos por tecnologia</h2>
+<div id="network"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+<script src="diagram.js"></script>
+
 </body>
 </html>
+
