@@ -1,5 +1,5 @@
 // Lista de personas
-const personas = ['ale', 'dami', 'gero', 'gus', 'cave', 'joaquin', 'juanma', 'juanpi', 'juli', 'lean', 'lucas', 'marce', 'marian', 'santi jr', 'tomi'];
+const personas = ['ale', 'dami', 'gero', 'gus', 'cave', 'joaquin', 'juanma', 'juanpi', 'juli', 'lean', 'lucas', 'marce', 'marian', 'santi jr', 'tomi', 'Walter', 'Juan', 'Nico', 'Naty 2', 'Fran', 'Lara'];
 
 // Función para seleccionar una persona aleatoria
 function seleccionarPersona() {
